@@ -10,7 +10,7 @@ public class LoginTest extends BaseTest {
     @Test
     public void verifyLogin() {
 
-        driver.get("https://the-internet.herokuapp.com/login");
+        driver.get("https://example.com");
 
         LoginPage login = new LoginPage(driver);
 
