@@ -22,6 +22,7 @@ public static WebDriver initDriver() {
     options.addArguments("--remote-allow-origins=*");
     options.addArguments("--disable-background-networking");
     options.addArguments("--disable-features=Translate");
+    options.addArguments("--disable-software-rasterizer");
 
     driver = new ChromeDriver(options);
 
