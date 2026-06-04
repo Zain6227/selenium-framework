@@ -8,24 +8,23 @@ public class DriverFactory {
 
     public static WebDriver driver;
 
-    public static WebDriver initDriver() {
-        ChromeOptions options = new ChromeOptions();
+public static WebDriver initDriver() {
 
-options.addArguments("--headless=new");
-options.addArguments("--window-size=1920,1080");
-options.addArguments("--disable-gpu");
-options.addArguments("--disable-extensions");
-options.addArguments("--disable-dev-shm-usage");
-options.addArguments("--remote-allow-origins=*");
-options.addArguments("--disable-background-networking");
-options.addArguments("--disable-features=Translate");
+    ChromeOptions options = new ChromeOptions();
 
-        driver = new ChromeDriver(options);
+    options.addArguments("--headless=new");
+    options.addArguments("--window-size=1920,1080");
+    options.addArguments("--disable-gpu");
+    options.addArguments("--disable-extensions");
+    options.addArguments("--disable-dev-shm-usage");
+    options.addArguments("--remote-allow-origins=*");
+    options.addArguments("--disable-background-networking");
+    options.addArguments("--disable-features=Translate");
 
-        driver.manage().window().maximize();
+    driver = new ChromeDriver(options);
 
-        return driver;
-    }
+    return driver;
+}
 
     public static void quitDriver() {
 
