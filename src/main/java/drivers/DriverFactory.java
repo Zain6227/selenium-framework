@@ -11,7 +11,9 @@ public class DriverFactory {
 public static WebDriver initDriver() {
 
     ChromeOptions options = new ChromeOptions();
-
+    options.setBinary(
+        "C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe"
+    );
     options.addArguments("--headless=new");
     options.addArguments("--window-size=1920,1080");
     options.addArguments("--disable-gpu");
