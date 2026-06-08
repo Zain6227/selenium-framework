@@ -1,35 +1,22 @@
 package tests;
 
-import org.openqa.selenium.WebDriver;
 import org.testng.annotations.Test;
 
 import base.BaseTest;
-import drivers.DriverFactory;
 import pages.LoginPage;
+import utils.ConfigReader;
 
 public class LoginTest extends BaseTest {
     @Test
-public void verifyBrowserStarts() throws Exception {
+    public void verifyLogin() {
 
-    WebDriver driver = DriverFactory.initDriver();
+        driver.get(ConfigReader.get("url"));
 
-    System.out.println("Chrome Started");
+        LoginPage login = new LoginPage(driver);
 
-    Thread.sleep(10000);
+        login.enterUsername(ConfigReader.get("username"));
+        login.enterPassword(ConfigReader.get("password"));
 
-    driver.quit();
-}
-
-    // @Test
-    // public void verifyLogin() {
-
-    //     driver.get("https://the-internet.herokuapp.com/login");
-
-    //     LoginPage login = new LoginPage(driver);
-
-    //     login.enterUsername("tomsmith");
-    //     login.enterPassword("SuperSecretPassword!");
-
-    //     login.clickLogin();
-    // }
+        login.clickSubmit();
+    }
 }

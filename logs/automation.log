@@ -1,0 +1,29 @@
+2026-06-08 12:06:30 INFO  BaseTest - Launching Browser
+2026-06-08 12:06:46 INFO  LoginPage - Entering username
+2026-06-08 12:06:47 INFO  LoginPage - Entering password
+2026-06-08 12:06:47 INFO  LoginPage - Clicking submit button
+2026-06-08 12:06:49 INFO  BaseTest - Closing Browser
+2026-06-08 12:21:56 INFO  BaseTest - Launching Browser
+2026-06-08 12:21:56 INFO  DriverFactory - Setting up ChromeDriver
+2026-06-08 12:21:56 INFO  DriverFactory - Launching Chrome Browser
+2026-06-08 12:22:07 INFO  DriverFactory - Browser launched successfully
+2026-06-08 12:22:07 INFO  ExtentListener - Starting Test: verifyLogin
+2026-06-08 12:22:10 INFO  LoginPage - Entering username
+2026-06-08 12:22:10 INFO  LoginPage - Entering password
+2026-06-08 12:22:10 INFO  LoginPage - Clicking submit button
+2026-06-08 12:22:11 INFO  ExtentListener - Test Passed: verifyLogin
+2026-06-08 12:22:11 INFO  BaseTest - Closing Browser
+2026-06-08 12:22:11 INFO  DriverFactory - Closing Browser
+2026-06-08 12:22:12 INFO  DriverFactory - Browser Closed
+2026-06-08 13:50:12 INFO  BaseTest - Launching Browser
+2026-06-08 13:50:12 INFO  DriverFactory - Setting up ChromeDriver
+2026-06-08 13:50:12 INFO  DriverFactory - Launching Chrome Browser
+2026-06-08 13:50:32 INFO  DriverFactory - Browser launched successfully
+2026-06-08 13:50:32 INFO  ExtentListener - Starting Test: verifyLogin
+2026-06-08 13:50:35 INFO  LoginPage - Entering username
+2026-06-08 13:50:38 INFO  LoginPage - Entering password
+2026-06-08 13:50:38 INFO  LoginPage - Clicking submit button
+2026-06-08 13:50:40 INFO  ExtentListener - Test Passed: verifyLogin
+2026-06-08 13:50:40 INFO  BaseTest - Closing Browser
+2026-06-08 13:50:40 INFO  DriverFactory - Closing Browser
+2026-06-08 13:50:42 INFO  DriverFactory - Browser Closed

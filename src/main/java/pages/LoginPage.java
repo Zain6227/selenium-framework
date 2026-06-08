@@ -1,15 +1,23 @@
 package pages;
 
+import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 
+import utils.LoggerUtils;
+import utils.WaitUtils;
+
 public class LoginPage {
 
-    WebDriver driver;
+    private static final int WAIT_SECONDS = 10;
+    private static final Logger logger =
+            LoggerUtils.getLogger(LoginPage.class);
 
-By username = By.id("username");
-By password = By.id("password");
-By loginBtn = By.cssSelector("button[type='submit']");
+    private final WebDriver driver;
+
+    private final By username = By.id("username");
+    private final By password = By.id("password");
+    private final By submit = By.id("submit");
 
     public LoginPage(WebDriver driver) {
 
@@ -18,16 +26,19 @@ By loginBtn = By.cssSelector("button[type='submit']");
 
     public void enterUsername(String user) {
 
-        driver.findElement(username).sendKeys(user);
+        logger.info("Entering username");
+        WaitUtils.waitForVisibility(driver, username, WAIT_SECONDS).sendKeys(user);
     }
 
     public void enterPassword(String pass) {
 
-        driver.findElement(password).sendKeys(pass);
+        logger.info("Entering password");
+        WaitUtils.waitForVisibility(driver, password, WAIT_SECONDS).sendKeys(pass);
     }
 
-    public void clickLogin() {
+    public void clickSubmit() {
 
-        driver.findElement(loginBtn).click();
+        logger.info("Clicking submit button");
+        WaitUtils.waitForClickability(driver, submit, WAIT_SECONDS).click();
     }
 }
