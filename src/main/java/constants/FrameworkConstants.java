@@ -5,6 +5,8 @@ public final class FrameworkConstants {
     private FrameworkConstants() {}
 
     public static final String CONFIG_FILE_NAME = "config.properties";
+    public static final String CONFIG_FOLDER =
+            "src/test/resources/config/";
     public static final String DEFAULT_CHROME_BINARY = "C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe";
 
     public static final String REPORTS_DIR = "reports";

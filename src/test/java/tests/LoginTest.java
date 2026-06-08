@@ -7,7 +7,8 @@ import pages.LoginPage;
 import utils.ConfigReader;
 
 public class LoginTest extends BaseTest {
-    @Test
+
+    @Test(groups = {"smoke", "sanity", "regression", "critical", "ui"})
     public void verifyLogin() {
 
         driver.get(ConfigReader.get("url"));

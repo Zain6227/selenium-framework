@@ -6,7 +6,7 @@ import base.BaseTest;
 
 public class CheckoutTest extends BaseTest {
 
-    @Test(enabled = false)
+    @Test(enabled = false, groups = {"regression", "critical", "ui"})
     public void verifyCheckoutFlow() {
     }
 }

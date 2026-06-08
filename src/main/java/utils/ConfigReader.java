@@ -2,6 +2,9 @@ package utils;
 
 import java.io.IOException;
 import java.io.InputStream;
+import java.nio.file.Files;
+import java.nio.file.Path;
+import java.nio.file.Paths;
 import java.util.Properties;
 
 import constants.FrameworkConstants;
@@ -39,18 +42,30 @@ public final class ConfigReader {
     }
 
     private static Properties loadProperties() {
-        Properties properties = new Properties();
+        String environment =
+                System.getProperty("env", "qa");
 
-        try (InputStream inputStream = ConfigReader.class.getClassLoader()
-                .getResourceAsStream(FrameworkConstants.CONFIG_FILE_NAME)) {
+        System.out.println(
+                "Environment Selected : "
+                        + environment);
+
+        String filePath =
+                FrameworkConstants.CONFIG_FOLDER
+                        + environment
+                        + ".properties";
+
+        Properties properties = new Properties();
+        Path path = Paths.get(filePath);
+
+        try (InputStream inputStream = Files.newInputStream(path)) {
             if (inputStream == null) {
-                throw new IllegalStateException("config.properties was not found on the classpath");
+                throw new IllegalStateException(filePath + " was not found");
             }
 
             properties.load(inputStream);
             return properties;
         } catch (IOException exception) {
-            throw new IllegalStateException("Unable to load config.properties", exception);
+            throw new IllegalStateException("Unable to load " + filePath, exception);
         }
     }
 }

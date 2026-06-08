@@ -6,7 +6,7 @@ import base.BaseTest;
 
 public class SearchTest extends BaseTest {
 
-    @Test(enabled = false)
+    @Test(enabled = false, groups = {"sanity", "regression", "ui"})
     public void verifySearchFlow() {
     }
 }

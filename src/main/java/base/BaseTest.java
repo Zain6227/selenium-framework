@@ -15,14 +15,14 @@ public class BaseTest {
 
     protected WebDriver driver;
 
-    @BeforeMethod
+    @BeforeMethod(alwaysRun = true)
     public void setup() {
 
         logger.info("Launching Browser");
         driver = DriverFactory.initDriver();
     }
 
-    @AfterMethod
+    @AfterMethod(alwaysRun = true)
     public void teardown() {
 
         logger.info("Closing Browser");

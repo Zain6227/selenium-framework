@@ -2,71 +2,101 @@ package drivers;
 
 import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebDriverException;
 import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.chrome.ChromeOptions;
+import org.openqa.selenium.edge.EdgeDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
 
-import constants.FrameworkConstants;
-import enums.BrowserType;
+import io.github.bonigarcia.wdm.WebDriverManager;
 import utils.ConfigReader;
 import utils.LoggerUtils;
 
-public class DriverFactory {
+public final class DriverFactory {
 
     private static final Logger logger =
             LoggerUtils.getLogger(DriverFactory.class);
 
-    public static WebDriver driver;
+    private static final ThreadLocal<WebDriver> driver =
+        new ThreadLocal<>();
+
+    private DriverFactory() {
+    }
 
     public static WebDriver initDriver() {
 
-        logger.info("Setting up ChromeDriver");
+        logger.info(
+            "Thread : {}",
+            Thread.currentThread().threadId());
 
-        BrowserType browserType = ConfigReader.getBrowser();
+        String browser =
+                ConfigReader.get("browser");
 
-        if (browserType != BrowserType.CHROME) {
-            throw new IllegalArgumentException("Unsupported browser: " + browserType);
+        switch (browser.toLowerCase()) {
+
+            case "firefox":
+
+                logger.info("Setting up FirefoxDriver");
+                WebDriverManager.firefoxdriver().setup();
+
+                logger.info("Launching Firefox Browser");
+                driver.set(new FirefoxDriver());
+
+                break;
+
+            case "edge":
+
+                logger.info("Setting up EdgeDriver");
+                WebDriverManager.edgedriver().setup();
+
+                logger.info("Launching Edge Browser");
+                driver.set(new EdgeDriver());
+
+                break;
+
+            case "chrome":
+
+            default:
+
+                logger.info("Setting up ChromeDriver");
+                WebDriverManager.chromedriver().setup();
+
+                logger.info("Launching Chrome Browser");
+                driver.set(new ChromeDriver());
+
+                break;
         }
 
-        ChromeOptions options = new ChromeOptions();
-        options.setBinary(
-            FrameworkConstants.DEFAULT_CHROME_BINARY
-        );
-
-        if (ConfigReader.getBoolean("headless", false)) {
-            options.addArguments("--headless=new");
-        }
-
-        options.addArguments("--window-size=1920,1080");
-        options.addArguments("--disable-gpu");
-        options.addArguments("--disable-extensions");
-        options.addArguments("--disable-dev-shm-usage");
-        options.addArguments("--remote-allow-origins=*");
-        options.addArguments("--disable-background-networking");
-        options.addArguments("--disable-features=Translate");
-        options.addArguments("--disable-software-rasterizer");
-
-        logger.info("Launching Chrome Browser");
-        driver = new ChromeDriver(options);
-
-        driver.manage().window().maximize();
+        getDriver().manage().window().maximize();
 
         logger.info("Browser launched successfully");
 
-        return driver;
+        return getDriver();
     }
 
     public static WebDriver getDriver() {
 
-        return driver;
+        return driver.get();
     }
 
     public static void quitDriver() {
 
-        if(driver != null) {
+        WebDriver currentDriver = getDriver();
+
+        if(currentDriver != null) {
 
             logger.info("Closing Browser");
-            driver.quit();
-            logger.info("Browser Closed");
+
+            try {
+                currentDriver.quit();
+            } catch (WebDriverException exception) {
+                logger.warn(
+                        "Browser quit reported an error on thread {}",
+                        Thread.currentThread().threadId(),
+                        exception);
+            } finally {
+                driver.remove();
+                logger.info("Browser Closed");
+            }
         }
     }
 }

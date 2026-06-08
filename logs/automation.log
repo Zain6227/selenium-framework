@@ -27,3 +27,343 @@
 2026-06-08 13:50:40 INFO  BaseTest - Closing Browser
 2026-06-08 13:50:40 INFO  DriverFactory - Closing Browser
 2026-06-08 13:50:42 INFO  DriverFactory - Browser Closed
+2026-06-08 14:33:55 INFO  BaseTest - Launching Browser
+2026-06-08 14:33:55 INFO  DriverFactory - Setting up ChromeDriver
+2026-06-08 14:34:01 INFO  WebDriverManager - Using chromedriver 149.0.7827.54 (resolved driver for Chrome 149)
+2026-06-08 14:34:01 INFO  WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\zain.ul.abedin\.cache\selenium\chromedriver\win64\149.0.7827.54\chromedriver.exe
+2026-06-08 14:34:01 INFO  DriverFactory - Launching Chrome Browser
+2026-06-08 14:34:10 INFO  DriverFactory - Browser launched successfully
+2026-06-08 14:34:10 INFO  ExtentListener - Starting Test: verifyLogin
+2026-06-08 14:34:36 INFO  LoginPage - Entering username
+2026-06-08 14:34:38 INFO  LoginPage - Entering password
+2026-06-08 14:34:39 INFO  LoginPage - Clicking submit button
+2026-06-08 14:34:40 INFO  ExtentListener - Test Passed: verifyLogin
+2026-06-08 14:34:40 INFO  BaseTest - Closing Browser
+2026-06-08 14:34:40 INFO  DriverFactory - Closing Browser
+2026-06-08 14:34:41 INFO  DriverFactory - Browser Closed
+2026-06-08 14:38:34 INFO  BaseTest - Launching Browser
+2026-06-08 14:38:34 INFO  DriverFactory - Setting up EdgeDriver
+2026-06-08 14:38:38 WARN  VersionDetector - Exception reading https://msedgedriver.azureedge.net/LATEST_RELEASE_149_WINDOWS to get latest version of msedgedriver (No such host is known (msedgedriver.azureedge.net))
+2026-06-08 14:38:38 WARN  VersionDetector - Exception reading https://msedgedriver.azureedge.net/LATEST_STABLE to get latest version of msedgedriver (msedgedriver.azureedge.net)
+2026-06-08 14:38:38 WARN  VersionDetector - Exception reading https://msedgedriver.azureedge.net/LATEST_STABLE to get latest version of msedgedriver (msedgedriver.azureedge.net)
+2026-06-08 14:38:38 INFO  WebDriverManager - Reading https://msedgedriver.azureedge.net/?restype=container&comp=list to seek msedgedriver
+2026-06-08 14:38:38 WARN  WebDriverManager - There was an error managing msedgedriver (latest version) (java.net.UnknownHostException: msedgedriver.azureedge.net) ... trying again using latest driver stored in cache
+2026-06-08 14:38:38 WARN  VersionDetector - Exception reading https://msedgedriver.azureedge.net/LATEST_STABLE to get latest version of msedgedriver (msedgedriver.azureedge.net)
+2026-06-08 14:38:38 WARN  VersionDetector - Exception reading https://msedgedriver.azureedge.net/LATEST_STABLE to get latest version of msedgedriver (msedgedriver.azureedge.net)
+2026-06-08 14:38:38 INFO  WebDriverManager - Reading https://msedgedriver.azureedge.net/?restype=container&comp=list to seek msedgedriver
+2026-06-08 14:38:38 ERROR WebDriverManager - There was an error managing msedgedriver (latest version) (java.net.UnknownHostException: msedgedriver.azureedge.net)
+io.github.bonigarcia.wdm.config.WebDriverManagerException: java.net.UnknownHostException: msedgedriver.azureedge.net
+	at io.github.bonigarcia.wdm.WebDriverManager.getDriversFromXml(WebDriverManager.java:1588) ~[webdrivermanager-5.9.2.jar:?]
+	at io.github.bonigarcia.wdm.managers.EdgeDriverManager.getDriverUrls(EdgeDriverManager.java:115) ~[webdrivermanager-5.9.2.jar:?]
+	at io.github.bonigarcia.wdm.WebDriverManager.createUrlHandler(WebDriverManager.java:1442) ~[webdrivermanager-5.9.2.jar:?]
+	at io.github.bonigarcia.wdm.WebDriverManager.download(WebDriverManager.java:1268) [webdrivermanager-5.9.2.jar:?]
+	at io.github.bonigarcia.wdm.WebDriverManager.manage(WebDriverManager.java:1184) [webdrivermanager-5.9.2.jar:?]
+	at io.github.bonigarcia.wdm.WebDriverManager.fallback(WebDriverManager.java:1437) [webdrivermanager-5.9.2.jar:?]
+	at io.github.bonigarcia.wdm.WebDriverManager.handleException(WebDriverManager.java:1415) [webdrivermanager-5.9.2.jar:?]
+	at io.github.bonigarcia.wdm.WebDriverManager.manage(WebDriverManager.java:1190) [webdrivermanager-5.9.2.jar:?]
+	at io.github.bonigarcia.wdm.WebDriverManager.setup(WebDriverManager.java:427) [webdrivermanager-5.9.2.jar:?]
+	at drivers.DriverFactory.initDriver(DriverFactory.java:43) [classes/:?]
+	at base.BaseTest.setup(BaseTest.java:22) [classes/:?]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565) ~[?:?]
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141) [testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71) [testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400) [testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333) [testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:836) [testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:601) [testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230) [testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63) [testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995) [testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203) [testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154) [testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134) [testng-7.11.0.jar:7.11.0]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604) [?:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:741) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestRunner.run(TestRunner.java:616) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestNG.runSuites(TestNG.java:1112) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestNG.run(TestNG.java:1079) [testng-7.11.0.jar:7.11.0]
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308) [surefire-testng-3.5.4.jar:3.5.4]
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71) [surefire-testng-3.5.4.jar:3.5.4]
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113) [surefire-testng-3.5.4.jar:3.5.4]
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385) [surefire-booter-3.5.4.jar:3.5.4]
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162) [surefire-booter-3.5.4.jar:3.5.4]
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507) [surefire-booter-3.5.4.jar:3.5.4]
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495) [surefire-booter-3.5.4.jar:3.5.4]
+Caused by: java.net.UnknownHostException: msedgedriver.azureedge.net
+	at java.base/java.net.InetAddress$CachedLookup.get(InetAddress.java:909) ~[?:?]
+	at java.base/java.net.InetAddress.getAllByName0(InetAddress.java:1702) ~[?:?]
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1582) ~[?:?]
+	at org.apache.hc.client5.http.SystemDefaultDnsResolver.resolve(SystemDefaultDnsResolver.java:43) ~[httpclient5-5.2.1.jar:5.2.1]
+	at org.apache.hc.client5.http.impl.io.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:141) ~[httpclient5-5.2.1.jar:5.2.1]
+	at org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:447) ~[httpclient5-5.2.1.jar:5.2.1]
+	at org.apache.hc.client5.http.impl.classic.InternalExecRuntime.connectEndpoint(InternalExecRuntime.java:162) ~[httpclient5-5.2.1.jar:5.2.1]
+	at org.apache.hc.client5.http.impl.classic.InternalExecRuntime.connectEndpoint(InternalExecRuntime.java:172) ~[httpclient5-5.2.1.jar:5.2.1]
+	at org.apache.hc.client5.http.impl.classic.ConnectExec.execute(ConnectExec.java:142) ~[httpclient5-5.2.1.jar:5.2.1]
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51) ~[httpclient5-5.2.1.jar:5.2.1]
+	at org.apache.hc.client5.http.impl.classic.ProtocolExec.execute(ProtocolExec.java:192) ~[httpclient5-5.2.1.jar:5.2.1]
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51) ~[httpclient5-5.2.1.jar:5.2.1]
+	at org.apache.hc.client5.http.impl.classic.HttpRequestRetryExec.execute(HttpRequestRetryExec.java:96) ~[httpclient5-5.2.1.jar:5.2.1]
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51) ~[httpclient5-5.2.1.jar:5.2.1]
+	at org.apache.hc.client5.http.impl.classic.ContentCompressionExec.execute(ContentCompressionExec.java:152) ~[httpclient5-5.2.1.jar:5.2.1]
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51) ~[httpclient5-5.2.1.jar:5.2.1]
+	at org.apache.hc.client5.http.impl.classic.RedirectExec.execute(RedirectExec.java:115) ~[httpclient5-5.2.1.jar:5.2.1]
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51) ~[httpclient5-5.2.1.jar:5.2.1]
+	at org.apache.hc.client5.http.impl.classic.InternalHttpClient.doExecute(InternalHttpClient.java:170) ~[httpclient5-5.2.1.jar:5.2.1]
+	at org.apache.hc.client5.http.impl.classic.CloseableHttpClient.execute(CloseableHttpClient.java:87) ~[httpclient5-5.2.1.jar:5.2.1]
+	at org.apache.hc.client5.http.impl.classic.CloseableHttpClient.execute(CloseableHttpClient.java:55) ~[httpclient5-5.2.1.jar:5.2.1]
+	at org.apache.hc.client5.http.classic.HttpClient.executeOpen(HttpClient.java:183) ~[httpclient5-5.2.1.jar:5.2.1]
+	at io.github.bonigarcia.wdm.online.HttpClient.execute(HttpClient.java:157) ~[webdrivermanager-5.9.2.jar:?]
+	at io.github.bonigarcia.wdm.WebDriverManager.getDriversFromXml(WebDriverManager.java:1573) ~[webdrivermanager-5.9.2.jar:?]
+	... 44 more
+2026-06-08 14:38:38 INFO  ExtentListener - Starting Test: verifyLogin
+2026-06-08 14:38:38 INFO  ExtentListener - Test Skipped: verifyLogin
+2026-06-08 15:01:49 INFO  BaseTest - Launching Browser
+2026-06-08 15:01:49 INFO  DriverFactory - Setting up ChromeDriver
+2026-06-08 15:01:50 INFO  WebDriverManager - Using chromedriver 149.0.7827.54 (resolved driver for Chrome 149)
+2026-06-08 15:01:50 INFO  WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\zain.ul.abedin\.cache\selenium\chromedriver\win64\149.0.7827.54\chromedriver.exe
+2026-06-08 15:01:50 INFO  DriverFactory - Launching Chrome Browser
+2026-06-08 15:02:01 INFO  DriverFactory - Browser launched successfully
+2026-06-08 15:02:01 INFO  ExtentListener - Starting Test: verifyLogin
+2026-06-08 15:02:04 INFO  LoginPage - Entering username
+2026-06-08 15:02:04 INFO  LoginPage - Entering password
+2026-06-08 15:02:04 INFO  LoginPage - Clicking submit button
+2026-06-08 15:02:07 INFO  ExtentListener - Test Passed: verifyLogin
+2026-06-08 15:02:07 INFO  BaseTest - Closing Browser
+2026-06-08 15:02:07 INFO  DriverFactory - Closing Browser
+2026-06-08 15:02:08 INFO  DriverFactory - Browser Closed
+2026-06-08 15:21:13 INFO  BaseTest - Launching Browser
+2026-06-08 15:21:13 INFO  DriverFactory - Setting up ChromeDriver
+2026-06-08 15:21:14 INFO  WebDriverManager - Using chromedriver 149.0.7827.54 (resolved driver for Chrome 149)
+2026-06-08 15:21:14 INFO  WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\zain.ul.abedin\.cache\selenium\chromedriver\win64\149.0.7827.54\chromedriver.exe
+2026-06-08 15:21:14 INFO  DriverFactory - Launching Chrome Browser
+2026-06-08 15:21:22 INFO  DriverFactory - Browser launched successfully
+2026-06-08 15:21:22 INFO  ExtentListener - Starting Test: verifyLogin
+2026-06-08 15:21:25 INFO  LoginPage - Entering username
+2026-06-08 15:21:26 INFO  LoginPage - Entering password
+2026-06-08 15:21:26 INFO  LoginPage - Clicking submit button
+2026-06-08 15:21:28 INFO  ExtentListener - Test Passed: verifyLogin
+2026-06-08 15:21:28 INFO  BaseTest - Closing Browser
+2026-06-08 15:21:28 INFO  DriverFactory - Closing Browser
+2026-06-08 15:21:29 INFO  DriverFactory - Browser Closed
+2026-06-08 15:38:33 INFO  BaseTest - Launching Browser
+2026-06-08 15:38:33 INFO  DriverFactory - Setting up ChromeDriver
+2026-06-08 15:38:38 INFO  WebDriverManager - Using chromedriver 149.0.7827.54 (resolved driver for Chrome 149)
+2026-06-08 15:38:38 INFO  WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\zain.ul.abedin\.cache\selenium\chromedriver\win64\149.0.7827.54\chromedriver.exe
+2026-06-08 15:38:38 INFO  DriverFactory - Launching Chrome Browser
+2026-06-08 15:38:44 INFO  DriverFactory - Browser launched successfully
+2026-06-08 15:38:45 INFO  ExtentListener - Starting Test: verifyLogin
+2026-06-08 15:38:50 INFO  LoginPage - Entering username
+2026-06-08 15:38:50 INFO  LoginPage - Entering password
+2026-06-08 15:38:50 INFO  LoginPage - Clicking submit button
+2026-06-08 15:38:51 INFO  ExtentListener - Test Passed: verifyLogin
+2026-06-08 15:38:51 INFO  BaseTest - Closing Browser
+2026-06-08 15:38:51 INFO  DriverFactory - Closing Browser
+2026-06-08 15:38:51 INFO  DriverFactory - Browser Closed
+2026-06-08 16:22:43 INFO  BaseTest - Launching Browser
+2026-06-08 16:22:43 INFO  DriverFactory - Setting up ChromeDriver
+2026-06-08 16:22:43 INFO  WebDriverManager - Using chromedriver 149.0.7827.54 (resolved driver for Chrome 149)
+2026-06-08 16:22:43 INFO  WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\zain.ul.abedin\.cache\selenium\chromedriver\win64\149.0.7827.54\chromedriver.exe
+2026-06-08 16:22:43 INFO  DriverFactory - Launching Chrome Browser
+2026-06-08 16:22:51 INFO  DriverFactory - Browser launched successfully
+2026-06-08 16:22:51 INFO  ExtentListener - Starting Test: verifyLogin
+2026-06-08 16:22:54 INFO  LoginPage - Entering username
+2026-06-08 16:22:54 INFO  LoginPage - Entering password
+2026-06-08 16:22:55 INFO  LoginPage - Clicking submit button
+2026-06-08 16:22:56 INFO  ExtentListener - Test Passed: verifyLogin
+2026-06-08 16:22:56 INFO  BaseTest - Closing Browser
+2026-06-08 16:22:56 INFO  DriverFactory - Closing Browser
+2026-06-08 16:22:57 INFO  DriverFactory - Browser Closed
+2026-06-08 16:35:45 INFO  BaseTest - Launching Browser
+2026-06-08 16:35:45 INFO  BaseTest - Launching Browser
+2026-06-08 16:35:45 INFO  BaseTest - Launching Browser
+2026-06-08 16:35:45 INFO  BaseTest - Launching Browser
+2026-06-08 16:35:45 INFO  BaseTest - Launching Browser
+2026-06-08 16:35:45 INFO  DriverFactory - Thread : 33
+2026-06-08 16:35:45 INFO  DriverFactory - Thread : 31
+2026-06-08 16:35:45 INFO  DriverFactory - Thread : 34
+2026-06-08 16:35:45 INFO  DriverFactory - Thread : 30
+2026-06-08 16:35:45 INFO  DriverFactory - Thread : 32
+2026-06-08 16:35:45 INFO  DriverFactory - Setting up ChromeDriver
+2026-06-08 16:35:45 INFO  DriverFactory - Setting up ChromeDriver
+2026-06-08 16:35:45 INFO  DriverFactory - Setting up ChromeDriver
+2026-06-08 16:35:45 INFO  DriverFactory - Setting up ChromeDriver
+2026-06-08 16:35:45 INFO  DriverFactory - Setting up ChromeDriver
+2026-06-08 16:35:46 INFO  WebDriverManager - Using chromedriver 149.0.7827.54 (resolved driver for Chrome 149)
+2026-06-08 16:35:46 INFO  WebDriverManager - Using chromedriver 149.0.7827.54 (resolved driver for Chrome 149)
+2026-06-08 16:35:46 INFO  WebDriverManager - Using chromedriver 149.0.7827.54 (resolved driver for Chrome 149)
+2026-06-08 16:35:46 INFO  WebDriverManager - Using chromedriver 149.0.7827.54 (resolved driver for Chrome 149)
+2026-06-08 16:35:46 INFO  WebDriverManager - Using chromedriver 149.0.7827.54 (resolved driver for Chrome 149)
+2026-06-08 16:35:46 INFO  WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\zain.ul.abedin\.cache\selenium\chromedriver\win64\149.0.7827.54\chromedriver.exe
+2026-06-08 16:35:46 INFO  WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\zain.ul.abedin\.cache\selenium\chromedriver\win64\149.0.7827.54\chromedriver.exe
+2026-06-08 16:35:46 INFO  DriverFactory - Launching Chrome Browser
+2026-06-08 16:35:46 INFO  WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\zain.ul.abedin\.cache\selenium\chromedriver\win64\149.0.7827.54\chromedriver.exe
+2026-06-08 16:35:46 INFO  DriverFactory - Launching Chrome Browser
+2026-06-08 16:35:46 INFO  DriverFactory - Launching Chrome Browser
+2026-06-08 16:35:46 INFO  WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\zain.ul.abedin\.cache\selenium\chromedriver\win64\149.0.7827.54\chromedriver.exe
+2026-06-08 16:35:46 INFO  WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\zain.ul.abedin\.cache\selenium\chromedriver\win64\149.0.7827.54\chromedriver.exe
+2026-06-08 16:35:46 INFO  DriverFactory - Launching Chrome Browser
+2026-06-08 16:35:46 INFO  DriverFactory - Launching Chrome Browser
+2026-06-08 16:35:51 INFO  DriverFactory - Browser launched successfully
+2026-06-08 16:35:51 INFO  ExtentListener - Starting Test: openGoogle
+2026-06-08 16:35:52 INFO  DriverFactory - Browser launched successfully
+2026-06-08 16:35:52 INFO  ExtentListener - Starting Test: openGoogle
+2026-06-08 16:35:54 INFO  ExtentListener - Test Passed: openGoogle
+2026-06-08 16:35:54 INFO  BaseTest - Closing Browser
+2026-06-08 16:35:54 INFO  DriverFactory - Closing Browser
+2026-06-08 16:35:55 INFO  ExtentListener - Test Passed: openGoogle
+2026-06-08 16:35:55 INFO  BaseTest - Closing Browser
+2026-06-08 16:35:55 INFO  DriverFactory - Closing Browser
+2026-06-08 16:35:55 INFO  DriverFactory - Browser launched successfully
+2026-06-08 16:35:55 INFO  ExtentListener - Starting Test: openGoogle
+2026-06-08 16:35:57 INFO  ExtentListener - Test Passed: openGoogle
+2026-06-08 16:35:57 INFO  BaseTest - Closing Browser
+2026-06-08 16:35:57 INFO  DriverFactory - Closing Browser
+2026-06-08 16:35:58 INFO  DriverFactory - Browser launched successfully
+2026-06-08 16:35:58 INFO  ExtentListener - Starting Test: openGoogle
+2026-06-08 16:36:01 INFO  DriverFactory - Browser launched successfully
+2026-06-08 16:36:01 INFO  ExtentListener - Starting Test: openGoogle
+2026-06-08 16:36:33 INFO  ExtentListener - Test Passed: openGoogle
+2026-06-08 16:36:33 INFO  BaseTest - Closing Browser
+2026-06-08 16:36:33 INFO  DriverFactory - Closing Browser
+2026-06-08 16:36:33 INFO  DriverFactory - Browser Closed
+2026-06-08 16:36:34 INFO  DriverFactory - Browser Closed
+2026-06-08 16:36:35 INFO  ExtentListener - Test Passed: openGoogle
+2026-06-08 16:36:35 INFO  BaseTest - Closing Browser
+2026-06-08 16:36:35 INFO  DriverFactory - Closing Browser
+2026-06-08 16:36:36 INFO  DriverFactory - Browser Closed
+2026-06-08 16:36:36 INFO  DriverFactory - Browser Closed
+2026-06-08 16:39:19 INFO  BaseTest - Launching Browser
+2026-06-08 16:39:19 INFO  BaseTest - Launching Browser
+2026-06-08 16:39:19 INFO  BaseTest - Launching Browser
+2026-06-08 16:39:19 INFO  BaseTest - Launching Browser
+2026-06-08 16:39:19 INFO  BaseTest - Launching Browser
+2026-06-08 16:39:19 INFO  DriverFactory - Thread : 41
+2026-06-08 16:39:19 INFO  DriverFactory - Thread : 43
+2026-06-08 16:39:19 INFO  DriverFactory - Thread : 42
+2026-06-08 16:39:19 INFO  DriverFactory - Thread : 39
+2026-06-08 16:39:19 INFO  DriverFactory - Thread : 40
+2026-06-08 16:39:19 INFO  DriverFactory - Setting up ChromeDriver
+2026-06-08 16:39:19 INFO  DriverFactory - Setting up ChromeDriver
+2026-06-08 16:39:19 INFO  DriverFactory - Setting up ChromeDriver
+2026-06-08 16:39:19 INFO  DriverFactory - Setting up ChromeDriver
+2026-06-08 16:39:19 INFO  DriverFactory - Setting up ChromeDriver
+2026-06-08 16:39:26 INFO  WebDriverManager - Using chromedriver 149.0.7827.54 (resolved driver for Chrome 149)
+2026-06-08 16:39:26 INFO  WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\zain.ul.abedin\.cache\selenium\chromedriver\win64\149.0.7827.54\chromedriver.exe
+2026-06-08 16:39:26 INFO  DriverFactory - Launching Chrome Browser
+2026-06-08 16:39:26 INFO  WebDriverManager - Using chromedriver 149.0.7827.54 (resolved driver for Chrome 149)
+2026-06-08 16:39:26 INFO  WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\zain.ul.abedin\.cache\selenium\chromedriver\win64\149.0.7827.54\chromedriver.exe
+2026-06-08 16:39:26 INFO  DriverFactory - Launching Chrome Browser
+2026-06-08 16:39:27 INFO  WebDriverManager - Using chromedriver 149.0.7827.54 (resolved driver for Chrome 149)
+2026-06-08 16:39:27 INFO  WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\zain.ul.abedin\.cache\selenium\chromedriver\win64\149.0.7827.54\chromedriver.exe
+2026-06-08 16:39:27 INFO  DriverFactory - Launching Chrome Browser
+2026-06-08 16:39:27 INFO  WebDriverManager - Using chromedriver 149.0.7827.54 (resolved driver for Chrome 149)
+2026-06-08 16:39:27 INFO  WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\zain.ul.abedin\.cache\selenium\chromedriver\win64\149.0.7827.54\chromedriver.exe
+2026-06-08 16:39:27 INFO  DriverFactory - Launching Chrome Browser
+2026-06-08 16:39:27 INFO  WebDriverManager - Using chromedriver 149.0.7827.54 (resolved driver for Chrome 149)
+2026-06-08 16:39:27 INFO  WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\zain.ul.abedin\.cache\selenium\chromedriver\win64\149.0.7827.54\chromedriver.exe
+2026-06-08 16:39:27 INFO  DriverFactory - Launching Chrome Browser
+2026-06-08 16:39:34 INFO  DriverFactory - Browser launched successfully
+2026-06-08 16:39:34 INFO  ExtentListener - Starting Test: openGoogle
+2026-06-08 16:39:35 INFO  DriverFactory - Browser launched successfully
+2026-06-08 16:39:35 INFO  ExtentListener - Starting Test: openGoogle
+2026-06-08 16:39:38 INFO  DriverFactory - Browser launched successfully
+2026-06-08 16:39:38 INFO  ExtentListener - Starting Test: openGoogle
+2026-06-08 16:39:42 INFO  DriverFactory - Browser launched successfully
+2026-06-08 16:39:42 INFO  ExtentListener - Starting Test: openGoogle
+2026-06-08 16:39:45 INFO  DriverFactory - Browser launched successfully
+2026-06-08 16:39:45 INFO  ExtentListener - Starting Test: openGoogle
+2026-06-08 16:39:49 INFO  ExtentListener - Test Passed: openGoogle
+2026-06-08 16:39:49 INFO  BaseTest - Closing Browser
+2026-06-08 16:39:49 INFO  DriverFactory - Closing Browser
+2026-06-08 16:39:49 INFO  ExtentListener - Test Passed: openGoogle
+2026-06-08 16:39:49 INFO  BaseTest - Closing Browser
+2026-06-08 16:39:49 INFO  DriverFactory - Closing Browser
+2026-06-08 16:39:50 INFO  ExtentListener - Test Passed: openGoogle
+2026-06-08 16:39:50 INFO  BaseTest - Closing Browser
+2026-06-08 16:39:50 INFO  DriverFactory - Closing Browser
+2026-06-08 16:39:55 INFO  ExtentListener - Test Passed: openGoogle
+2026-06-08 16:39:55 INFO  BaseTest - Closing Browser
+2026-06-08 16:39:55 INFO  DriverFactory - Closing Browser
+2026-06-08 16:40:01 INFO  ExtentListener - Test Passed: openGoogle
+2026-06-08 16:40:01 INFO  BaseTest - Closing Browser
+2026-06-08 16:40:01 INFO  DriverFactory - Closing Browser
+2026-06-08 16:40:02 INFO  DriverFactory - Browser Closed
+2026-06-08 16:40:05 INFO  DriverFactory - Browser Closed
+2026-06-08 16:40:05 INFO  DriverFactory - Browser Closed
+2026-06-08 16:40:06 INFO  DriverFactory - Browser Closed
+2026-06-08 16:40:06 INFO  DriverFactory - Browser Closed
+2026-06-08 16:55:45 INFO  ExtentListener - Starting Test: verifyLogin
+2026-06-08 16:55:45 WARN  RetryAnalyzer - Retrying test verifyLogin - Attempt 1
+2026-06-08 16:55:45 INFO  ExtentListener - Test Skipped: verifyLogin
+2026-06-08 16:55:45 INFO  ExtentListener - Starting Test: verifyLogin
+2026-06-08 16:55:45 WARN  RetryAnalyzer - Retrying test verifyLogin - Attempt 2
+2026-06-08 16:55:45 INFO  ExtentListener - Test Skipped: verifyLogin
+2026-06-08 16:55:45 INFO  ExtentListener - Starting Test: verifyLogin
+2026-06-08 16:55:45 ERROR ExtentListener - Test Failed: verifyLogin
+2026-06-08 16:55:45 ERROR ExtentListener - java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.get(String)" because "this.driver" is null
+2026-06-08 17:48:16 INFO  ExtentListener - Starting Test: verifyLogin
+2026-06-08 17:48:16 WARN  RetryAnalyzer - Retrying test verifyLogin - Attempt 1
+2026-06-08 17:48:16 INFO  ExtentListener - Test Skipped: verifyLogin
+2026-06-08 17:48:16 INFO  ExtentListener - Starting Test: verifyLogin
+2026-06-08 17:48:16 WARN  RetryAnalyzer - Retrying test verifyLogin - Attempt 2
+2026-06-08 17:48:16 INFO  ExtentListener - Test Skipped: verifyLogin
+2026-06-08 17:48:16 INFO  ExtentListener - Starting Test: verifyLogin
+2026-06-08 17:48:16 ERROR ExtentListener - Test Failed: verifyLogin
+2026-06-08 17:48:16 ERROR ExtentListener - java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.get(String)" because "this.driver" is null
+2026-06-08 17:50:33 INFO  ExtentListener - Starting Test: verifyLogin
+2026-06-08 17:50:33 WARN  RetryAnalyzer - Retrying test verifyLogin - Attempt 1
+2026-06-08 17:50:33 INFO  ExtentListener - Test Skipped: verifyLogin
+2026-06-08 17:50:33 INFO  ExtentListener - Starting Test: verifyLogin
+2026-06-08 17:50:33 WARN  RetryAnalyzer - Retrying test verifyLogin - Attempt 2
+2026-06-08 17:50:33 INFO  ExtentListener - Test Skipped: verifyLogin
+2026-06-08 17:50:33 INFO  ExtentListener - Starting Test: verifyLogin
+2026-06-08 17:50:33 ERROR ExtentListener - Test Failed: verifyLogin
+2026-06-08 17:50:33 ERROR ExtentListener - java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.get(String)" because "this.driver" is null
+2026-06-08 17:50:54 INFO  ExtentListener - Starting Test: verifyLogin
+2026-06-08 17:50:54 WARN  RetryAnalyzer - Retrying test verifyLogin - Attempt 1
+2026-06-08 17:50:54 INFO  ExtentListener - Test Skipped: verifyLogin
+2026-06-08 17:50:54 INFO  ExtentListener - Starting Test: verifyLogin
+2026-06-08 17:50:54 WARN  RetryAnalyzer - Retrying test verifyLogin - Attempt 2
+2026-06-08 17:50:54 INFO  ExtentListener - Test Skipped: verifyLogin
+2026-06-08 17:50:54 INFO  ExtentListener - Starting Test: verifyLogin
+2026-06-08 17:50:54 ERROR ExtentListener - Test Failed: verifyLogin
+2026-06-08 17:50:54 ERROR ExtentListener - java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.get(String)" because "this.driver" is null
+2026-06-08 17:51:45 INFO  BaseTest - Launching Browser
+2026-06-08 17:51:45 INFO  DriverFactory - Thread : 3
+2026-06-08 17:51:45 INFO  DriverFactory - Setting up ChromeDriver
+2026-06-08 17:51:51 INFO  WebDriverManager - Using chromedriver 149.0.7827.54 (resolved driver for Chrome 149)
+2026-06-08 17:51:51 INFO  WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\zain.ul.abedin\.cache\selenium\chromedriver\win64\149.0.7827.54\chromedriver.exe
+2026-06-08 17:51:51 INFO  DriverFactory - Launching Chrome Browser
+2026-06-08 17:52:00 INFO  DriverFactory - Browser launched successfully
+2026-06-08 17:52:00 INFO  ExtentListener - Starting Test: verifyLogin
+2026-06-08 17:52:05 INFO  LoginPage - Entering username
+2026-06-08 17:52:06 INFO  LoginPage - Entering password
+2026-06-08 17:52:06 INFO  LoginPage - Clicking submit button
+2026-06-08 17:52:07 INFO  ExtentListener - Test Passed: verifyLogin
+2026-06-08 17:52:08 INFO  BaseTest - Closing Browser
+2026-06-08 17:52:08 INFO  DriverFactory - Closing Browser
+2026-06-08 17:52:08 INFO  DriverFactory - Browser Closed
+2026-06-08 17:52:58 INFO  BaseTest - Launching Browser
+2026-06-08 17:52:58 INFO  DriverFactory - Thread : 3
+2026-06-08 17:52:58 INFO  DriverFactory - Setting up ChromeDriver
+2026-06-08 17:52:59 INFO  WebDriverManager - Using chromedriver 149.0.7827.54 (resolved driver for Chrome 149)
+2026-06-08 17:52:59 INFO  WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\zain.ul.abedin\.cache\selenium\chromedriver\win64\149.0.7827.54\chromedriver.exe
+2026-06-08 17:52:59 INFO  DriverFactory - Launching Chrome Browser
+2026-06-08 17:53:08 INFO  DriverFactory - Browser launched successfully
+2026-06-08 17:53:08 INFO  ExtentListener - Starting Test: verifyLogin
+2026-06-08 17:53:13 INFO  LoginPage - Entering username
+2026-06-08 17:53:21 INFO  LoginPage - Entering password
+2026-06-08 17:53:21 INFO  LoginPage - Clicking submit button
+2026-06-08 17:53:23 INFO  ExtentListener - Test Passed: verifyLogin
+2026-06-08 17:53:23 INFO  BaseTest - Closing Browser
+2026-06-08 17:53:23 INFO  DriverFactory - Closing Browser
+2026-06-08 17:53:25 INFO  DriverFactory - Browser Closed
