@@ -1,11 +1,13 @@
 package drivers;
 
+import java.io.File;
 import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebDriverException;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.firefox.FirefoxOptions;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 import utils.ConfigReader;
@@ -28,8 +30,7 @@ public final class DriverFactory {
             "Thread : {}",
             Thread.currentThread().threadId());
 
-        String browser =
-                ConfigReader.get("browser");
+        String browser = ConfigReader.getBrowser();
 
         switch (browser.toLowerCase()) {
 
@@ -38,8 +39,15 @@ public final class DriverFactory {
                 logger.info("Setting up FirefoxDriver");
                 WebDriverManager.firefoxdriver().setup();
 
+                FirefoxOptions firefoxOptions = new FirefoxOptions();
+                String firefoxBinary = findFirefoxBinary();
+                if (firefoxBinary != null) {
+                    firefoxOptions.setBinary(firefoxBinary);
+                    logger.info("Using Firefox binary at: {}", firefoxBinary);
+                }
+
                 logger.info("Launching Firefox Browser");
-                driver.set(new FirefoxDriver());
+                driver.set(new FirefoxDriver(firefoxOptions));
 
                 break;
 
@@ -98,5 +106,22 @@ public final class DriverFactory {
                 logger.info("Browser Closed");
             }
         }
+    }
+
+    private static String findFirefoxBinary() {
+        String[] possiblePaths = {
+            "C:\\Program Files\\Mozilla Firefox\\firefox.exe",
+            "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe"
+        };
+
+        for (String path : possiblePaths) {
+            File file = new File(path);
+            if (file.exists()) {
+                return path;
+            }
+        }
+
+        logger.warn("Firefox binary not found in default locations. WebDriverManager will use system PATH.");
+        return null;
     }
 }

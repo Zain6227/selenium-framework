@@ -1,7 +1,9 @@
 package enums;
 
 public enum BrowserType {
-    CHROME;
+    CHROME,
+    FIREFOX,
+    EDGE;
 
     public static BrowserType from(String value) {
         return BrowserType.valueOf(value.trim().toUpperCase());

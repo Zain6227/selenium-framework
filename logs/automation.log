@@ -367,3 +367,455 @@ Caused by: java.net.UnknownHostException: msedgedriver.azureedge.net
 2026-06-08 17:53:23 INFO  BaseTest - Closing Browser
 2026-06-08 17:53:23 INFO  DriverFactory - Closing Browser
 2026-06-08 17:53:25 INFO  DriverFactory - Browser Closed
+2026-06-09 11:35:56 INFO  BaseTest - Launching Browser
+2026-06-09 11:35:56 INFO  DriverFactory - Thread : 3
+2026-06-09 11:35:56 INFO  DriverFactory - Setting up ChromeDriver
+2026-06-09 11:36:00 INFO  WebDriverManager - Using chromedriver 149.0.7827.54 (resolved driver for Chrome 149)
+2026-06-09 11:36:00 INFO  WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\zain.ul.abedin\.cache\selenium\chromedriver\win64\149.0.7827.54\chromedriver.exe
+2026-06-09 11:36:00 INFO  DriverFactory - Launching Chrome Browser
+2026-06-09 11:36:14 INFO  DriverFactory - Browser launched successfully
+2026-06-09 11:36:14 INFO  ExtentListener - Starting Test: verifyLogin
+2026-06-09 11:36:19 INFO  LoginPage - Entering username
+2026-06-09 11:36:19 INFO  LoginPage - Entering password
+2026-06-09 11:36:20 INFO  LoginPage - Clicking submit button
+2026-06-09 11:36:21 INFO  ExtentListener - Test Passed: verifyLogin
+2026-06-09 11:36:21 INFO  BaseTest - Closing Browser
+2026-06-09 11:36:21 INFO  DriverFactory - Closing Browser
+2026-06-09 11:36:21 INFO  DriverFactory - Browser Closed
+2026-06-09 15:36:46 INFO  BaseTest - Launching Browser
+2026-06-09 15:36:46 INFO  BaseTest - Launching Browser
+2026-06-09 15:36:46 INFO  BaseTest - Launching Browser
+2026-06-09 15:36:46 INFO  DriverFactory - Thread : 33
+2026-06-09 15:36:46 INFO  DriverFactory - Thread : 35
+2026-06-09 15:36:46 INFO  DriverFactory - Thread : 34
+2026-06-09 15:36:46 INFO  DriverFactory - Setting up ChromeDriver
+2026-06-09 15:36:46 INFO  DriverFactory - Setting up ChromeDriver
+2026-06-09 15:36:46 INFO  DriverFactory - Setting up ChromeDriver
+2026-06-09 15:36:53 INFO  WebDriverManager - Using chromedriver 149.0.7827.55 (resolved driver for Chrome 149)
+2026-06-09 15:36:53 INFO  Downloader - Downloading https://storage.googleapis.com/chrome-for-testing-public/149.0.7827.55/win64/chromedriver-win64.zip
+2026-06-09 15:36:53 INFO  WebDriverManager - Using chromedriver 149.0.7827.55 (resolved driver for Chrome 149)
+2026-06-09 15:36:53 INFO  Downloader - Downloading https://storage.googleapis.com/chrome-for-testing-public/149.0.7827.55/win64/chromedriver-win64.zip
+2026-06-09 15:36:53 INFO  WebDriverManager - Using chromedriver 149.0.7827.55 (resolved driver for Chrome 149)
+2026-06-09 15:36:53 INFO  Downloader - Downloading https://storage.googleapis.com/chrome-for-testing-public/149.0.7827.55/win64/chromedriver-win64.zip
+2026-06-09 15:36:57 INFO  Downloader - Extracting driver from compressed file chromedriver-win64.zip
+2026-06-09 15:36:57 INFO  Downloader - Extracting driver from compressed file chromedriver-win64.zip
+2026-06-09 15:36:58 INFO  Downloader - Extracting driver from compressed file chromedriver-win64.zip
+2026-06-09 15:36:59 INFO  WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\zain.ul.abedin\.cache\selenium\chromedriver\win64\149.0.7827.55\chromedriver.exe
+2026-06-09 15:36:59 INFO  DriverFactory - Launching Chrome Browser
+2026-06-09 15:36:59 INFO  WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\zain.ul.abedin\.cache\selenium\chromedriver\win64\149.0.7827.55\chromedriver.exe
+2026-06-09 15:36:59 INFO  DriverFactory - Launching Chrome Browser
+2026-06-09 15:36:59 WARN  WebDriverManager - There was an error managing chromedriver 149.0.7827.55 (C:\Users\zain.ul.abedin\.cache\selenium\chromedriver\win64\149.0.7827.55\chromedriver.exe) ... trying again using latest driver stored in cache
+2026-06-09 15:36:59 INFO  WebDriverManager - Using chromedriver 149.0.7827.55 (resolved driver for Chrome 149)
+2026-06-09 15:36:59 INFO  WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\zain.ul.abedin\.cache\selenium\chromedriver\win64\149.0.7827.55\chromedriver.exe
+2026-06-09 15:36:59 INFO  DriverFactory - Launching Chrome Browser
+2026-06-09 15:37:08 INFO  DriverFactory - Browser launched successfully
+2026-06-09 15:37:09 INFO  DriverFactory - Browser launched successfully
+2026-06-09 15:37:12 INFO  BaseTest - Closing Browser
+2026-06-09 15:37:12 INFO  DriverFactory - Closing Browser
+2026-06-09 15:37:14 INFO  DriverFactory - Browser launched successfully
+2026-06-09 15:37:21 INFO  DriverFactory - Browser Closed
+2026-06-09 15:37:29 INFO  BaseTest - Closing Browser
+2026-06-09 15:37:29 INFO  DriverFactory - Closing Browser
+2026-06-09 15:37:35 INFO  DriverFactory - Browser Closed
+2026-06-09 15:39:52 INFO  BaseTest - Closing Browser
+2026-06-09 15:39:52 INFO  DriverFactory - Closing Browser
+2026-06-09 15:39:56 INFO  DriverFactory - Browser Closed
+2026-06-09 16:47:38 INFO  BaseTest - Launching Browser
+2026-06-09 16:47:38 INFO  DriverFactory - Thread : 3
+2026-06-09 16:47:38 INFO  DriverFactory - Setting up EdgeDriver
+2026-06-09 16:47:43 WARN  VersionDetector - Exception reading https://msedgedriver.azureedge.net/LATEST_RELEASE_149_WINDOWS to get latest version of msedgedriver (No such host is known (msedgedriver.azureedge.net))
+2026-06-09 16:47:43 WARN  VersionDetector - Exception reading https://msedgedriver.azureedge.net/LATEST_STABLE to get latest version of msedgedriver (msedgedriver.azureedge.net)
+2026-06-09 16:47:43 WARN  VersionDetector - Exception reading https://msedgedriver.azureedge.net/LATEST_STABLE to get latest version of msedgedriver (msedgedriver.azureedge.net)
+2026-06-09 16:47:43 INFO  WebDriverManager - Reading https://msedgedriver.azureedge.net/?restype=container&comp=list to seek msedgedriver
+2026-06-09 16:47:43 WARN  WebDriverManager - There was an error managing msedgedriver (latest version) (java.net.UnknownHostException: msedgedriver.azureedge.net) ... trying again using latest driver stored in cache
+2026-06-09 16:47:43 WARN  VersionDetector - Exception reading https://msedgedriver.azureedge.net/LATEST_STABLE to get latest version of msedgedriver (msedgedriver.azureedge.net)
+2026-06-09 16:47:43 WARN  VersionDetector - Exception reading https://msedgedriver.azureedge.net/LATEST_STABLE to get latest version of msedgedriver (msedgedriver.azureedge.net)
+2026-06-09 16:47:43 INFO  WebDriverManager - Reading https://msedgedriver.azureedge.net/?restype=container&comp=list to seek msedgedriver
+2026-06-09 16:47:43 ERROR WebDriverManager - There was an error managing msedgedriver (latest version) (java.net.UnknownHostException: msedgedriver.azureedge.net)
+io.github.bonigarcia.wdm.config.WebDriverManagerException: java.net.UnknownHostException: msedgedriver.azureedge.net
+	at io.github.bonigarcia.wdm.WebDriverManager.getDriversFromXml(WebDriverManager.java:1588) ~[webdrivermanager-5.9.2.jar:?]
+	at io.github.bonigarcia.wdm.managers.EdgeDriverManager.getDriverUrls(EdgeDriverManager.java:115) ~[webdrivermanager-5.9.2.jar:?]
+	at io.github.bonigarcia.wdm.WebDriverManager.createUrlHandler(WebDriverManager.java:1442) ~[webdrivermanager-5.9.2.jar:?]
+	at io.github.bonigarcia.wdm.WebDriverManager.download(WebDriverManager.java:1268) [webdrivermanager-5.9.2.jar:?]
+	at io.github.bonigarcia.wdm.WebDriverManager.manage(WebDriverManager.java:1184) [webdrivermanager-5.9.2.jar:?]
+	at io.github.bonigarcia.wdm.WebDriverManager.fallback(WebDriverManager.java:1437) [webdrivermanager-5.9.2.jar:?]
+	at io.github.bonigarcia.wdm.WebDriverManager.handleException(WebDriverManager.java:1415) [webdrivermanager-5.9.2.jar:?]
+	at io.github.bonigarcia.wdm.WebDriverManager.manage(WebDriverManager.java:1190) [webdrivermanager-5.9.2.jar:?]
+	at io.github.bonigarcia.wdm.WebDriverManager.setup(WebDriverManager.java:427) [webdrivermanager-5.9.2.jar:?]
+	at drivers.DriverFactory.initDriver(DriverFactory.java:48) [classes/:?]
+	at base.BaseTest.setup(BaseTest.java:22) [classes/:?]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565) ~[?:?]
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141) [testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71) [testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400) [testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333) [testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:836) [testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:601) [testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230) [testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63) [testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995) [testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203) [testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154) [testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134) [testng-7.11.0.jar:7.11.0]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604) [?:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:741) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestRunner.run(TestRunner.java:616) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestNG.runSuites(TestNG.java:1112) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestNG.run(TestNG.java:1079) [testng-7.11.0.jar:7.11.0]
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308) [surefire-testng-3.5.4.jar:3.5.4]
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71) [surefire-testng-3.5.4.jar:3.5.4]
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113) [surefire-testng-3.5.4.jar:3.5.4]
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385) [surefire-booter-3.5.4.jar:3.5.4]
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162) [surefire-booter-3.5.4.jar:3.5.4]
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507) [surefire-booter-3.5.4.jar:3.5.4]
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495) [surefire-booter-3.5.4.jar:3.5.4]
+Caused by: java.net.UnknownHostException: msedgedriver.azureedge.net
+	at java.base/java.net.InetAddress$CachedLookup.get(InetAddress.java:909) ~[?:?]
+	at java.base/java.net.InetAddress.getAllByName0(InetAddress.java:1702) ~[?:?]
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1582) ~[?:?]
+	at org.apache.hc.client5.http.SystemDefaultDnsResolver.resolve(SystemDefaultDnsResolver.java:43) ~[httpclient5-5.2.1.jar:5.2.1]
+	at org.apache.hc.client5.http.impl.io.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:141) ~[httpclient5-5.2.1.jar:5.2.1]
+	at org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:447) ~[httpclient5-5.2.1.jar:5.2.1]
+	at org.apache.hc.client5.http.impl.classic.InternalExecRuntime.connectEndpoint(InternalExecRuntime.java:162) ~[httpclient5-5.2.1.jar:5.2.1]
+	at org.apache.hc.client5.http.impl.classic.InternalExecRuntime.connectEndpoint(InternalExecRuntime.java:172) ~[httpclient5-5.2.1.jar:5.2.1]
+	at org.apache.hc.client5.http.impl.classic.ConnectExec.execute(ConnectExec.java:142) ~[httpclient5-5.2.1.jar:5.2.1]
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51) ~[httpclient5-5.2.1.jar:5.2.1]
+	at org.apache.hc.client5.http.impl.classic.ProtocolExec.execute(ProtocolExec.java:192) ~[httpclient5-5.2.1.jar:5.2.1]
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51) ~[httpclient5-5.2.1.jar:5.2.1]
+	at org.apache.hc.client5.http.impl.classic.HttpRequestRetryExec.execute(HttpRequestRetryExec.java:96) ~[httpclient5-5.2.1.jar:5.2.1]
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51) ~[httpclient5-5.2.1.jar:5.2.1]
+	at org.apache.hc.client5.http.impl.classic.ContentCompressionExec.execute(ContentCompressionExec.java:152) ~[httpclient5-5.2.1.jar:5.2.1]
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51) ~[httpclient5-5.2.1.jar:5.2.1]
+	at org.apache.hc.client5.http.impl.classic.RedirectExec.execute(RedirectExec.java:115) ~[httpclient5-5.2.1.jar:5.2.1]
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51) ~[httpclient5-5.2.1.jar:5.2.1]
+	at org.apache.hc.client5.http.impl.classic.InternalHttpClient.doExecute(InternalHttpClient.java:170) ~[httpclient5-5.2.1.jar:5.2.1]
+	at org.apache.hc.client5.http.impl.classic.CloseableHttpClient.execute(CloseableHttpClient.java:87) ~[httpclient5-5.2.1.jar:5.2.1]
+	at org.apache.hc.client5.http.impl.classic.CloseableHttpClient.execute(CloseableHttpClient.java:55) ~[httpclient5-5.2.1.jar:5.2.1]
+	at org.apache.hc.client5.http.classic.HttpClient.executeOpen(HttpClient.java:183) ~[httpclient5-5.2.1.jar:5.2.1]
+	at io.github.bonigarcia.wdm.online.HttpClient.execute(HttpClient.java:157) ~[webdrivermanager-5.9.2.jar:?]
+	at io.github.bonigarcia.wdm.WebDriverManager.getDriversFromXml(WebDriverManager.java:1573) ~[webdrivermanager-5.9.2.jar:?]
+	... 44 more
+2026-06-09 16:47:43 INFO  ExtentListener - Starting Test: testOne
+2026-06-09 16:47:43 INFO  ExtentListener - Test Skipped: testOne
+2026-06-09 16:47:43 INFO  BaseTest - Closing Browser
+2026-06-09 16:47:43 INFO  BaseTest - Launching Browser
+2026-06-09 16:47:43 INFO  DriverFactory - Thread : 3
+2026-06-09 16:47:43 INFO  DriverFactory - Setting up EdgeDriver
+2026-06-09 16:47:46 WARN  VersionDetector - Exception reading https://msedgedriver.azureedge.net/LATEST_RELEASE_149_WINDOWS to get latest version of msedgedriver (msedgedriver.azureedge.net)
+2026-06-09 16:47:46 WARN  VersionDetector - Exception reading https://msedgedriver.azureedge.net/LATEST_STABLE to get latest version of msedgedriver (msedgedriver.azureedge.net)
+2026-06-09 16:47:46 WARN  VersionDetector - Exception reading https://msedgedriver.azureedge.net/LATEST_STABLE to get latest version of msedgedriver (msedgedriver.azureedge.net)
+2026-06-09 16:47:46 INFO  WebDriverManager - Reading https://msedgedriver.azureedge.net/?restype=container&comp=list to seek msedgedriver
+2026-06-09 16:47:46 WARN  WebDriverManager - There was an error managing msedgedriver (latest version) (java.net.UnknownHostException: msedgedriver.azureedge.net) ... trying again using latest driver stored in cache
+2026-06-09 16:47:46 WARN  VersionDetector - Exception reading https://msedgedriver.azureedge.net/LATEST_STABLE to get latest version of msedgedriver (msedgedriver.azureedge.net)
+2026-06-09 16:47:46 WARN  VersionDetector - Exception reading https://msedgedriver.azureedge.net/LATEST_STABLE to get latest version of msedgedriver (msedgedriver.azureedge.net)
+2026-06-09 16:47:46 INFO  WebDriverManager - Reading https://msedgedriver.azureedge.net/?restype=container&comp=list to seek msedgedriver
+2026-06-09 16:47:47 ERROR WebDriverManager - There was an error managing msedgedriver (latest version) (java.net.UnknownHostException: msedgedriver.azureedge.net)
+io.github.bonigarcia.wdm.config.WebDriverManagerException: java.net.UnknownHostException: msedgedriver.azureedge.net
+	at io.github.bonigarcia.wdm.WebDriverManager.getDriversFromXml(WebDriverManager.java:1588) ~[webdrivermanager-5.9.2.jar:?]
+	at io.github.bonigarcia.wdm.managers.EdgeDriverManager.getDriverUrls(EdgeDriverManager.java:115) ~[webdrivermanager-5.9.2.jar:?]
+	at io.github.bonigarcia.wdm.WebDriverManager.createUrlHandler(WebDriverManager.java:1442) ~[webdrivermanager-5.9.2.jar:?]
+	at io.github.bonigarcia.wdm.WebDriverManager.download(WebDriverManager.java:1268) [webdrivermanager-5.9.2.jar:?]
+	at io.github.bonigarcia.wdm.WebDriverManager.manage(WebDriverManager.java:1184) [webdrivermanager-5.9.2.jar:?]
+	at io.github.bonigarcia.wdm.WebDriverManager.fallback(WebDriverManager.java:1437) [webdrivermanager-5.9.2.jar:?]
+	at io.github.bonigarcia.wdm.WebDriverManager.handleException(WebDriverManager.java:1415) [webdrivermanager-5.9.2.jar:?]
+	at io.github.bonigarcia.wdm.WebDriverManager.manage(WebDriverManager.java:1190) [webdrivermanager-5.9.2.jar:?]
+	at io.github.bonigarcia.wdm.WebDriverManager.setup(WebDriverManager.java:427) [webdrivermanager-5.9.2.jar:?]
+	at drivers.DriverFactory.initDriver(DriverFactory.java:48) [classes/:?]
+	at base.BaseTest.setup(BaseTest.java:22) [classes/:?]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565) ~[?:?]
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141) [testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71) [testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400) [testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333) [testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:836) [testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:601) [testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230) [testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63) [testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995) [testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203) [testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154) [testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134) [testng-7.11.0.jar:7.11.0]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604) [?:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:741) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestRunner.run(TestRunner.java:616) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestNG.runSuites(TestNG.java:1112) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestNG.run(TestNG.java:1079) [testng-7.11.0.jar:7.11.0]
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308) [surefire-testng-3.5.4.jar:3.5.4]
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71) [surefire-testng-3.5.4.jar:3.5.4]
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113) [surefire-testng-3.5.4.jar:3.5.4]
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385) [surefire-booter-3.5.4.jar:3.5.4]
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162) [surefire-booter-3.5.4.jar:3.5.4]
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507) [surefire-booter-3.5.4.jar:3.5.4]
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495) [surefire-booter-3.5.4.jar:3.5.4]
+Caused by: java.net.UnknownHostException: msedgedriver.azureedge.net
+	at java.base/java.net.InetAddress$CachedLookup.get(InetAddress.java:909) ~[?:?]
+	at java.base/java.net.InetAddress.getAllByName0(InetAddress.java:1702) ~[?:?]
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1582) ~[?:?]
+	at org.apache.hc.client5.http.SystemDefaultDnsResolver.resolve(SystemDefaultDnsResolver.java:43) ~[httpclient5-5.2.1.jar:5.2.1]
+	at org.apache.hc.client5.http.impl.io.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:141) ~[httpclient5-5.2.1.jar:5.2.1]
+	at org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:447) ~[httpclient5-5.2.1.jar:5.2.1]
+	at org.apache.hc.client5.http.impl.classic.InternalExecRuntime.connectEndpoint(InternalExecRuntime.java:162) ~[httpclient5-5.2.1.jar:5.2.1]
+	at org.apache.hc.client5.http.impl.classic.InternalExecRuntime.connectEndpoint(InternalExecRuntime.java:172) ~[httpclient5-5.2.1.jar:5.2.1]
+	at org.apache.hc.client5.http.impl.classic.ConnectExec.execute(ConnectExec.java:142) ~[httpclient5-5.2.1.jar:5.2.1]
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51) ~[httpclient5-5.2.1.jar:5.2.1]
+	at org.apache.hc.client5.http.impl.classic.ProtocolExec.execute(ProtocolExec.java:192) ~[httpclient5-5.2.1.jar:5.2.1]
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51) ~[httpclient5-5.2.1.jar:5.2.1]
+	at org.apache.hc.client5.http.impl.classic.HttpRequestRetryExec.execute(HttpRequestRetryExec.java:96) ~[httpclient5-5.2.1.jar:5.2.1]
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51) ~[httpclient5-5.2.1.jar:5.2.1]
+	at org.apache.hc.client5.http.impl.classic.ContentCompressionExec.execute(ContentCompressionExec.java:152) ~[httpclient5-5.2.1.jar:5.2.1]
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51) ~[httpclient5-5.2.1.jar:5.2.1]
+	at org.apache.hc.client5.http.impl.classic.RedirectExec.execute(RedirectExec.java:115) ~[httpclient5-5.2.1.jar:5.2.1]
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51) ~[httpclient5-5.2.1.jar:5.2.1]
+	at org.apache.hc.client5.http.impl.classic.InternalHttpClient.doExecute(InternalHttpClient.java:170) ~[httpclient5-5.2.1.jar:5.2.1]
+	at org.apache.hc.client5.http.impl.classic.CloseableHttpClient.execute(CloseableHttpClient.java:87) ~[httpclient5-5.2.1.jar:5.2.1]
+	at org.apache.hc.client5.http.impl.classic.CloseableHttpClient.execute(CloseableHttpClient.java:55) ~[httpclient5-5.2.1.jar:5.2.1]
+	at org.apache.hc.client5.http.classic.HttpClient.executeOpen(HttpClient.java:183) ~[httpclient5-5.2.1.jar:5.2.1]
+	at io.github.bonigarcia.wdm.online.HttpClient.execute(HttpClient.java:157) ~[webdrivermanager-5.9.2.jar:?]
+	at io.github.bonigarcia.wdm.WebDriverManager.getDriversFromXml(WebDriverManager.java:1573) ~[webdrivermanager-5.9.2.jar:?]
+	... 44 more
+2026-06-09 16:47:47 INFO  ExtentListener - Starting Test: testThree
+2026-06-09 16:47:47 INFO  ExtentListener - Test Skipped: testThree
+2026-06-09 16:47:47 INFO  BaseTest - Closing Browser
+2026-06-09 16:47:47 INFO  BaseTest - Launching Browser
+2026-06-09 16:47:47 INFO  DriverFactory - Thread : 3
+2026-06-09 16:47:47 INFO  DriverFactory - Setting up EdgeDriver
+2026-06-09 16:47:50 WARN  VersionDetector - Exception reading https://msedgedriver.azureedge.net/LATEST_RELEASE_149_WINDOWS to get latest version of msedgedriver (msedgedriver.azureedge.net)
+2026-06-09 16:47:50 WARN  VersionDetector - Exception reading https://msedgedriver.azureedge.net/LATEST_STABLE to get latest version of msedgedriver (msedgedriver.azureedge.net)
+2026-06-09 16:47:50 WARN  VersionDetector - Exception reading https://msedgedriver.azureedge.net/LATEST_STABLE to get latest version of msedgedriver (msedgedriver.azureedge.net)
+2026-06-09 16:47:50 INFO  WebDriverManager - Reading https://msedgedriver.azureedge.net/?restype=container&comp=list to seek msedgedriver
+2026-06-09 16:47:50 WARN  WebDriverManager - There was an error managing msedgedriver (latest version) (java.net.UnknownHostException: msedgedriver.azureedge.net) ... trying again using latest driver stored in cache
+2026-06-09 16:47:50 WARN  VersionDetector - Exception reading https://msedgedriver.azureedge.net/LATEST_STABLE to get latest version of msedgedriver (msedgedriver.azureedge.net)
+2026-06-09 16:47:50 WARN  VersionDetector - Exception reading https://msedgedriver.azureedge.net/LATEST_STABLE to get latest version of msedgedriver (msedgedriver.azureedge.net)
+2026-06-09 16:47:50 INFO  WebDriverManager - Reading https://msedgedriver.azureedge.net/?restype=container&comp=list to seek msedgedriver
+2026-06-09 16:47:50 ERROR WebDriverManager - There was an error managing msedgedriver (latest version) (java.net.UnknownHostException: msedgedriver.azureedge.net)
+io.github.bonigarcia.wdm.config.WebDriverManagerException: java.net.UnknownHostException: msedgedriver.azureedge.net
+	at io.github.bonigarcia.wdm.WebDriverManager.getDriversFromXml(WebDriverManager.java:1588) ~[webdrivermanager-5.9.2.jar:?]
+	at io.github.bonigarcia.wdm.managers.EdgeDriverManager.getDriverUrls(EdgeDriverManager.java:115) ~[webdrivermanager-5.9.2.jar:?]
+	at io.github.bonigarcia.wdm.WebDriverManager.createUrlHandler(WebDriverManager.java:1442) ~[webdrivermanager-5.9.2.jar:?]
+	at io.github.bonigarcia.wdm.WebDriverManager.download(WebDriverManager.java:1268) [webdrivermanager-5.9.2.jar:?]
+	at io.github.bonigarcia.wdm.WebDriverManager.manage(WebDriverManager.java:1184) [webdrivermanager-5.9.2.jar:?]
+	at io.github.bonigarcia.wdm.WebDriverManager.fallback(WebDriverManager.java:1437) [webdrivermanager-5.9.2.jar:?]
+	at io.github.bonigarcia.wdm.WebDriverManager.handleException(WebDriverManager.java:1415) [webdrivermanager-5.9.2.jar:?]
+	at io.github.bonigarcia.wdm.WebDriverManager.manage(WebDriverManager.java:1190) [webdrivermanager-5.9.2.jar:?]
+	at io.github.bonigarcia.wdm.WebDriverManager.setup(WebDriverManager.java:427) [webdrivermanager-5.9.2.jar:?]
+	at drivers.DriverFactory.initDriver(DriverFactory.java:48) [classes/:?]
+	at base.BaseTest.setup(BaseTest.java:22) [classes/:?]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565) ~[?:?]
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141) [testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71) [testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400) [testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333) [testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:836) [testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:601) [testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230) [testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63) [testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995) [testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203) [testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154) [testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134) [testng-7.11.0.jar:7.11.0]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604) [?:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:741) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestRunner.run(TestRunner.java:616) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestNG.runSuites(TestNG.java:1112) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestNG.run(TestNG.java:1079) [testng-7.11.0.jar:7.11.0]
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308) [surefire-testng-3.5.4.jar:3.5.4]
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71) [surefire-testng-3.5.4.jar:3.5.4]
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113) [surefire-testng-3.5.4.jar:3.5.4]
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385) [surefire-booter-3.5.4.jar:3.5.4]
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162) [surefire-booter-3.5.4.jar:3.5.4]
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507) [surefire-booter-3.5.4.jar:3.5.4]
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495) [surefire-booter-3.5.4.jar:3.5.4]
+Caused by: java.net.UnknownHostException: msedgedriver.azureedge.net
+	at java.base/java.net.InetAddress$CachedLookup.get(InetAddress.java:909) ~[?:?]
+	at java.base/java.net.InetAddress.getAllByName0(InetAddress.java:1702) ~[?:?]
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1582) ~[?:?]
+	at org.apache.hc.client5.http.SystemDefaultDnsResolver.resolve(SystemDefaultDnsResolver.java:43) ~[httpclient5-5.2.1.jar:5.2.1]
+	at org.apache.hc.client5.http.impl.io.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:141) ~[httpclient5-5.2.1.jar:5.2.1]
+	at org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:447) ~[httpclient5-5.2.1.jar:5.2.1]
+	at org.apache.hc.client5.http.impl.classic.InternalExecRuntime.connectEndpoint(InternalExecRuntime.java:162) ~[httpclient5-5.2.1.jar:5.2.1]
+	at org.apache.hc.client5.http.impl.classic.InternalExecRuntime.connectEndpoint(InternalExecRuntime.java:172) ~[httpclient5-5.2.1.jar:5.2.1]
+	at org.apache.hc.client5.http.impl.classic.ConnectExec.execute(ConnectExec.java:142) ~[httpclient5-5.2.1.jar:5.2.1]
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51) ~[httpclient5-5.2.1.jar:5.2.1]
+	at org.apache.hc.client5.http.impl.classic.ProtocolExec.execute(ProtocolExec.java:192) ~[httpclient5-5.2.1.jar:5.2.1]
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51) ~[httpclient5-5.2.1.jar:5.2.1]
+	at org.apache.hc.client5.http.impl.classic.HttpRequestRetryExec.execute(HttpRequestRetryExec.java:96) ~[httpclient5-5.2.1.jar:5.2.1]
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51) ~[httpclient5-5.2.1.jar:5.2.1]
+	at org.apache.hc.client5.http.impl.classic.ContentCompressionExec.execute(ContentCompressionExec.java:152) ~[httpclient5-5.2.1.jar:5.2.1]
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51) ~[httpclient5-5.2.1.jar:5.2.1]
+	at org.apache.hc.client5.http.impl.classic.RedirectExec.execute(RedirectExec.java:115) ~[httpclient5-5.2.1.jar:5.2.1]
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51) ~[httpclient5-5.2.1.jar:5.2.1]
+	at org.apache.hc.client5.http.impl.classic.InternalHttpClient.doExecute(InternalHttpClient.java:170) ~[httpclient5-5.2.1.jar:5.2.1]
+	at org.apache.hc.client5.http.impl.classic.CloseableHttpClient.execute(CloseableHttpClient.java:87) ~[httpclient5-5.2.1.jar:5.2.1]
+	at org.apache.hc.client5.http.impl.classic.CloseableHttpClient.execute(CloseableHttpClient.java:55) ~[httpclient5-5.2.1.jar:5.2.1]
+	at org.apache.hc.client5.http.classic.HttpClient.executeOpen(HttpClient.java:183) ~[httpclient5-5.2.1.jar:5.2.1]
+	at io.github.bonigarcia.wdm.online.HttpClient.execute(HttpClient.java:157) ~[webdrivermanager-5.9.2.jar:?]
+	at io.github.bonigarcia.wdm.WebDriverManager.getDriversFromXml(WebDriverManager.java:1573) ~[webdrivermanager-5.9.2.jar:?]
+	... 44 more
+2026-06-09 16:47:50 INFO  ExtentListener - Starting Test: testTwo
+2026-06-09 16:47:50 INFO  ExtentListener - Test Skipped: testTwo
+2026-06-09 16:47:50 INFO  BaseTest - Closing Browser
+2026-06-09 16:59:38 INFO  BaseTest - Launching Browser
+2026-06-09 16:59:38 INFO  DriverFactory - Thread : 3
+2026-06-09 16:59:38 INFO  DriverFactory - Setting up FirefoxDriver
+2026-06-09 16:59:46 INFO  WebDriverManager - Reading https://raw.githubusercontent.com/bonigarcia/webdrivermanager/master/docs/mirror/geckodriver to seek geckodriver
+2026-06-09 16:59:46 INFO  Downloader - Downloading https://github.com/mozilla/geckodriver/releases/download/v0.37.0/geckodriver-v0.37.0-win64.zip
+2026-06-09 16:59:47 INFO  Downloader - Extracting driver from compressed file geckodriver-v0.37.0-win64.zip
+2026-06-09 16:59:47 INFO  WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\zain.ul.abedin\.cache\selenium\geckodriver\win64\0.37.0\geckodriver.exe
+2026-06-09 16:59:47 INFO  DriverFactory - Launching Firefox Browser
+2026-06-09 16:59:50 INFO  ExtentListener - Starting Test: testOne
+2026-06-09 16:59:50 INFO  ExtentListener - Test Skipped: testOne
+2026-06-09 16:59:50 INFO  BaseTest - Closing Browser
+2026-06-09 16:59:50 INFO  BaseTest - Launching Browser
+2026-06-09 16:59:50 INFO  DriverFactory - Thread : 3
+2026-06-09 16:59:50 INFO  DriverFactory - Setting up FirefoxDriver
+2026-06-09 16:59:56 INFO  WebDriverManager - Reading https://raw.githubusercontent.com/bonigarcia/webdrivermanager/master/docs/mirror/geckodriver to seek geckodriver
+2026-06-09 16:59:57 INFO  WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\zain.ul.abedin\.cache\selenium\geckodriver\win64\0.37.0\geckodriver.exe
+2026-06-09 16:59:57 INFO  DriverFactory - Launching Firefox Browser
+2026-06-09 16:59:58 INFO  ExtentListener - Starting Test: testThree
+2026-06-09 16:59:58 INFO  ExtentListener - Test Skipped: testThree
+2026-06-09 16:59:58 INFO  BaseTest - Closing Browser
+2026-06-09 16:59:58 INFO  BaseTest - Launching Browser
+2026-06-09 16:59:58 INFO  DriverFactory - Thread : 3
+2026-06-09 16:59:58 INFO  DriverFactory - Setting up FirefoxDriver
+2026-06-09 17:00:04 INFO  WebDriverManager - Reading https://raw.githubusercontent.com/bonigarcia/webdrivermanager/master/docs/mirror/geckodriver to seek geckodriver
+2026-06-09 17:00:04 INFO  WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\zain.ul.abedin\.cache\selenium\geckodriver\win64\0.37.0\geckodriver.exe
+2026-06-09 17:00:04 INFO  DriverFactory - Launching Firefox Browser
+2026-06-09 17:00:05 INFO  ExtentListener - Starting Test: testTwo
+2026-06-09 17:00:05 INFO  ExtentListener - Test Skipped: testTwo
+2026-06-09 17:00:05 INFO  BaseTest - Closing Browser
+2026-06-09 17:02:13 INFO  BaseTest - Launching Browser
+2026-06-09 17:02:13 INFO  DriverFactory - Thread : 3
+2026-06-09 17:02:13 INFO  DriverFactory - Setting up ChromeDriver
+2026-06-09 17:02:18 INFO  WebDriverManager - Using chromedriver 149.0.7827.55 (resolved driver for Chrome 149)
+2026-06-09 17:02:19 INFO  WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\zain.ul.abedin\.cache\selenium\chromedriver\win64\149.0.7827.55\chromedriver.exe
+2026-06-09 17:02:19 INFO  DriverFactory - Launching Chrome Browser
+2026-06-09 17:02:27 INFO  DriverFactory - Browser launched successfully
+2026-06-09 17:02:27 INFO  ExtentListener - Starting Test: testOne
+2026-06-09 17:02:34 INFO  ExtentListener - Test Passed: testOne
+2026-06-09 17:02:34 INFO  BaseTest - Closing Browser
+2026-06-09 17:02:34 INFO  DriverFactory - Closing Browser
+2026-06-09 17:02:36 INFO  DriverFactory - Browser Closed
+2026-06-09 17:02:36 INFO  BaseTest - Launching Browser
+2026-06-09 17:02:36 INFO  DriverFactory - Thread : 3
+2026-06-09 17:02:36 INFO  DriverFactory - Setting up ChromeDriver
+2026-06-09 17:02:36 INFO  WebDriverManager - Using chromedriver 149.0.7827.55 (resolved driver for Chrome 149)
+2026-06-09 17:02:36 INFO  WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\zain.ul.abedin\.cache\selenium\chromedriver\win64\149.0.7827.55\chromedriver.exe
+2026-06-09 17:02:36 INFO  DriverFactory - Launching Chrome Browser
+2026-06-09 17:02:43 INFO  DriverFactory - Browser launched successfully
+2026-06-09 17:02:43 INFO  ExtentListener - Starting Test: testThree
+2026-06-09 17:05:43 WARN  RetryAnalyzer - Retrying test testThree - Attempt 1
+2026-06-09 17:05:43 INFO  ExtentListener - Test Skipped: testThree
+2026-06-09 17:05:43 INFO  BaseTest - Closing Browser
+2026-06-09 17:05:43 INFO  DriverFactory - Closing Browser
+2026-06-09 17:06:14 INFO  DriverFactory - Browser Closed
+2026-06-09 17:06:14 INFO  BaseTest - Launching Browser
+2026-06-09 17:06:14 INFO  DriverFactory - Thread : 3
+2026-06-09 17:06:14 INFO  DriverFactory - Setting up ChromeDriver
+2026-06-09 17:06:14 INFO  WebDriverManager - Using chromedriver 149.0.7827.55 (resolved driver for Chrome 149)
+2026-06-09 17:06:14 INFO  WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\zain.ul.abedin\.cache\selenium\chromedriver\win64\149.0.7827.55\chromedriver.exe
+2026-06-09 17:06:14 INFO  DriverFactory - Launching Chrome Browser
+2026-06-09 17:06:21 INFO  DriverFactory - Browser launched successfully
+2026-06-09 17:06:21 INFO  ExtentListener - Starting Test: testThree
+2026-06-09 17:07:59 INFO  ExtentListener - Test Passed: testThree
+2026-06-09 17:07:59 INFO  BaseTest - Closing Browser
+2026-06-09 17:07:59 INFO  DriverFactory - Closing Browser
+2026-06-09 17:08:21 INFO  DriverFactory - Browser Closed
+2026-06-09 17:08:21 INFO  BaseTest - Launching Browser
+2026-06-09 17:08:21 INFO  DriverFactory - Thread : 3
+2026-06-09 17:08:21 INFO  DriverFactory - Setting up ChromeDriver
+2026-06-09 17:08:21 INFO  WebDriverManager - Using chromedriver 149.0.7827.55 (resolved driver for Chrome 149)
+2026-06-09 17:08:21 INFO  WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\zain.ul.abedin\.cache\selenium\chromedriver\win64\149.0.7827.55\chromedriver.exe
+2026-06-09 17:08:21 INFO  DriverFactory - Launching Chrome Browser
+2026-06-09 17:08:28 INFO  DriverFactory - Browser launched successfully
+2026-06-09 17:08:28 INFO  ExtentListener - Starting Test: testTwo
+2026-06-09 17:08:36 INFO  ExtentListener - Test Passed: testTwo
+2026-06-09 17:08:36 INFO  BaseTest - Closing Browser
+2026-06-09 17:08:36 INFO  DriverFactory - Closing Browser
+2026-06-09 17:08:42 INFO  DriverFactory - Browser Closed
+2026-06-09 18:01:25 INFO  BaseTest - Launching Browser
+2026-06-09 18:01:25 INFO  DriverFactory - Thread : 3
+2026-06-09 18:01:25 INFO  DriverFactory - Setting up ChromeDriver
+2026-06-09 18:01:28 INFO  WebDriverManager - Using chromedriver 149.0.7827.55 (resolved driver for Chrome 149)
+2026-06-09 18:01:28 INFO  WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\zain.ul.abedin\.cache\selenium\chromedriver\win64\149.0.7827.55\chromedriver.exe
+2026-06-09 18:01:28 INFO  DriverFactory - Launching Chrome Browser
+2026-06-09 18:01:35 INFO  DriverFactory - Browser launched successfully
+2026-06-09 18:01:35 INFO  ExtentListener - Starting Test: verifyLogin
+2026-06-09 18:01:37 INFO  LoginPage - Entering username
+2026-06-09 18:01:46 INFO  LoginPage - Entering password
+2026-06-09 18:01:46 INFO  LoginPage - Clicking submit button
+2026-06-09 18:01:47 INFO  ExtentListener - Test Passed: verifyLogin
+2026-06-09 18:01:47 INFO  BaseTest - Closing Browser
+2026-06-09 18:01:47 INFO  DriverFactory - Closing Browser
+2026-06-09 18:01:47 INFO  DriverFactory - Browser Closed
+2026-06-09 18:01:47 INFO  BaseTest - Launching Browser
+2026-06-09 18:01:47 INFO  DriverFactory - Thread : 3
+2026-06-09 18:01:47 INFO  DriverFactory - Setting up ChromeDriver
+2026-06-09 18:01:47 INFO  WebDriverManager - Using chromedriver 149.0.7827.55 (resolved driver for Chrome 149)
+2026-06-09 18:01:47 INFO  WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\zain.ul.abedin\.cache\selenium\chromedriver\win64\149.0.7827.55\chromedriver.exe
+2026-06-09 18:01:47 INFO  DriverFactory - Launching Chrome Browser
+2026-06-09 18:01:52 INFO  DriverFactory - Browser launched successfully
+2026-06-09 18:01:52 INFO  ExtentListener - Starting Test: verifyLogin
+2026-06-09 18:01:57 INFO  LoginPage - Entering username
+2026-06-09 18:01:57 INFO  LoginPage - Entering password
+2026-06-09 18:01:57 INFO  LoginPage - Clicking submit button
+2026-06-09 18:01:57 INFO  ExtentListener - Test Passed: verifyLogin
+2026-06-09 18:01:57 INFO  BaseTest - Closing Browser
+2026-06-09 18:01:57 INFO  DriverFactory - Closing Browser
+2026-06-09 18:01:58 INFO  DriverFactory - Browser Closed
+2026-06-09 18:01:58 INFO  BaseTest - Launching Browser
+2026-06-09 18:01:58 INFO  DriverFactory - Thread : 3
+2026-06-09 18:01:58 INFO  DriverFactory - Setting up ChromeDriver
+2026-06-09 18:01:58 INFO  WebDriverManager - Using chromedriver 149.0.7827.55 (resolved driver for Chrome 149)
+2026-06-09 18:01:58 INFO  WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\zain.ul.abedin\.cache\selenium\chromedriver\win64\149.0.7827.55\chromedriver.exe
+2026-06-09 18:01:58 INFO  DriverFactory - Launching Chrome Browser
+2026-06-09 18:02:03 INFO  DriverFactory - Browser launched successfully
+2026-06-09 18:02:03 INFO  ExtentListener - Starting Test: verifyLogin
+2026-06-09 18:02:06 INFO  LoginPage - Entering username
+2026-06-09 18:02:06 INFO  LoginPage - Entering password
+2026-06-09 18:02:06 INFO  LoginPage - Clicking submit button
+2026-06-09 18:02:07 INFO  ExtentListener - Test Passed: verifyLogin
+2026-06-09 18:02:07 INFO  BaseTest - Closing Browser
+2026-06-09 18:02:07 INFO  DriverFactory - Closing Browser
+2026-06-09 18:02:07 INFO  DriverFactory - Browser Closed
+2026-06-09 18:02:07 INFO  BaseTest - Launching Browser
+2026-06-09 18:02:07 INFO  DriverFactory - Thread : 3
+2026-06-09 18:02:07 INFO  DriverFactory - Setting up ChromeDriver
+2026-06-09 18:02:07 INFO  WebDriverManager - Using chromedriver 149.0.7827.55 (resolved driver for Chrome 149)
+2026-06-09 18:02:07 INFO  WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\zain.ul.abedin\.cache\selenium\chromedriver\win64\149.0.7827.55\chromedriver.exe
+2026-06-09 18:02:07 INFO  DriverFactory - Launching Chrome Browser
+2026-06-09 18:02:12 INFO  DriverFactory - Browser launched successfully
+2026-06-09 18:02:12 INFO  ExtentListener - Starting Test: verifyLogin
+2026-06-09 18:02:31 INFO  LoginPage - Entering username
+2026-06-09 18:02:31 INFO  LoginPage - Entering password
+2026-06-09 18:02:31 INFO  LoginPage - Clicking submit button
+2026-06-09 18:02:31 INFO  ExtentListener - Test Passed: verifyLogin
+2026-06-09 18:02:31 INFO  BaseTest - Closing Browser
+2026-06-09 18:02:31 INFO  DriverFactory - Closing Browser
+2026-06-09 18:02:32 INFO  DriverFactory - Browser Closed

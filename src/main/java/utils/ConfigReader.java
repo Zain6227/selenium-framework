@@ -8,7 +8,6 @@ import java.nio.file.Paths;
 import java.util.Properties;
 
 import constants.FrameworkConstants;
-import enums.BrowserType;
 
 public final class ConfigReader {
 
@@ -27,8 +26,14 @@ public final class ConfigReader {
         return value;
     }
 
-    public static BrowserType getBrowser() {
-        return BrowserType.from(get("browser"));
+    public static String getBrowser() {
+        String browser = System.getProperty("browser");
+
+        if (browser == null || browser.isBlank()) {
+            browser = get("browser");
+        }
+
+        return browser;
     }
 
     public static boolean getBoolean(String key, boolean defaultValue) {
