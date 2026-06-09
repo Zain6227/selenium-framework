@@ -30,7 +30,10 @@ public final class DriverFactory {
             "Thread : {}",
             Thread.currentThread().threadId());
 
-        String browser = ConfigReader.getBrowser();
+        String browser =
+                System.getProperty(
+                        "browser",
+                        ConfigReader.get("browser"));
 
         switch (browser.toLowerCase()) {
 
