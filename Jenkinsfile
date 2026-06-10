@@ -23,20 +23,23 @@ pipeline {
         always {
             echo 'Pipeline Finished'
             
-            // 1. Archive Screenshots (Adjust the path to where your framework saves screenshots)
-            // This grabs any .png files in your target or test-output folders
+            script {
+                System.setProperty("hudson.model.DirectoryBrowserSupport.CSP", "")
+            }
+
+            // Archive your screenshots
             archiveArtifacts artifacts: '**/target/screenshots/**/*.png', allowEmptyArchive: true
             
-            // 2. Publish Extent Report Link on the Jenkins Dashboard
-            // Adjust 'reportDir' to point to the actual folder where Extent generates the HTML
-            htmlPublisher(allowMissing: false,
+            // Fixed line: Changed htmlPublisher to publishHTML
+            publishHTML([
+                allowMissing: false,
                 alwaysLinkToLastBuild: true,
                 keepAll: true,
                 reportDir: 'target/ExtentReports', 
                 reportFiles: 'index.html', 
                 reportName: 'Extent Report',
                 reportTitles: 'Automation Execution Report'
-            )
+            ])
         }
         success {
             echo 'Pipeline Passed'
